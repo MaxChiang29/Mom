@@ -8,13 +8,15 @@
 
 /**
  *
- * table -> custom , report , record
+ * table -> custom , report , order ,
  * */
 
 class create_table {
     private $_userid;
     public function __construct($userid){
-
+        /*
+         * TODO: 建立會員資料表
+         * */
 
     }
 
@@ -29,10 +31,12 @@ class create_table {
     private function add_custom_table(){
 
     }
+
     private function add_report_table(){
 
     }
-    private function add_record_table(){
+
+    private function add_order_table(){
 
     }
 

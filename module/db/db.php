@@ -1,0 +1,1 @@
+<?phpinclude 'db_connect.php';class db{    private $_conn;    public function __construct(){        try{            $db  = new db_connect();            $this->_conn = $db->connect();            if($this->_conn['status']!='Y') throw new Exception($this->_conn['info']);        }catch(Exception $e){            echo $e->getMessage();        }    }}
