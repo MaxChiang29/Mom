@@ -11,7 +11,7 @@
  * table -> custom , report , order ,
  * */
 
-class create_table {
+class create_table extends db{
     private $_userid;
     public function __construct($userid){
         /*

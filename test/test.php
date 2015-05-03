@@ -1,1 +1,1 @@
-<?php     include '../api/account/account.php';    new account();
+<?php     include '../api/account/account.php';    $detail = array(        'username' =>'Jimmy',        'account'  =>'xxxxx',        'password' =>'1234'    );    $x =  new account();    $x->create_User($detail);

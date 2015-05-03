@@ -6,6 +6,6 @@
  * Time: 下午 6:00
  */
 
-class customer {
+class customer extends db{
 
 }
